@@ -41,8 +41,8 @@ dependencies:
   syncfusion_flutter_pdf:
   syncfusion_flutter_pdfviewer:
 
-
-
+  dio:
+  sembast:
 dev_dependencies:
   flutter_test:
     sdk: flutter

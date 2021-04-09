@@ -4,6 +4,7 @@ import 'package:pdf_flutter_app/overlay_test.dart';
 import 'package:pdf_flutter_app/test.dart';
 
 import 'annotations.dart';
+import 'download and save/download.dart';
 
 void main() {
   runApp(MyApp());
@@ -44,7 +45,7 @@ class _PdfTestState extends State<PdfTest> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => OverLayTest(),
+                builder: (context) => DownLoadPdf(),
               ),
             );
           },
